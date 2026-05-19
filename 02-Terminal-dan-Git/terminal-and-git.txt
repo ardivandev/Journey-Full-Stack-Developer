@@ -1,0 +1,36 @@
+Terminal (atau Command Line Interface / CLI) adalah program yang digunakan untuk berinteraksi dengan komputer menggunakan teks/ketikan perintah, bukan dengan klik-klik ikon seperti yang biasa kita lakukan di Windows atau macOS (disebut GUI - Graphical User Interface).
+---
+Perintah-Perintah Dasar Terminal
+1. pwd (Print Working Directory): Mengetahui posisi folder Anda sekarang.
+2. ls (List): Melihat daftar file dan folder di lokasi saat ini. (Di Windows pake dir).
+3. cd <nama_folder> (Change Directory): Pindah masuk ke folder lain.
+4. cd .. : Keluar dari folder saat ini (naik 1 tingkat ke folder di atasnya).=
+5. mkdir <nama_folder> (Make Directory): Membuat folder baru.
+6. touch <nama_file>: Membuat file baru kosong (misal: touch index.html).
+7. clear: Membersihkan layar terminal agar rapi kembali.
+---
+Git adalah software gratis yang bertindak sebagai mesin waktu untuk kode Anda. Git mendeteksi setiap perubahan baris kode, mencatat siapa yang mengubah, dan memungkinkan Anda kembali ke versi kode di masa lalu jika terjadi error.
+---
+Perintah-Perintah GIT Dasar
+1. git init: Membuat atau menginisialisasi repositori Git baru di dalam folder komputer lokal Anda.
+2. git clone: Menyalin atau mendownload repositori Git yang sudah ada dari internet ke komputer lokal Anda.
+3. git add nama_file: Memasukkan file spesifik ke dalam antrean (staging area) sebelum disimpan.
+4. git add .: Memasukkan seluruh file yang baru atau berubah ke dalam antrean (staging area) sekaligus.
+5. git commit -m "message": Menyimpan secara permanen semua file yang ada di antrean ke dalam riwayat Git disertai catatan pengingat.
+6. git reset nama_file: Mengeluarkan file spesifik dari antrean (staging area) tanpa menghapus hasil ketikan Anda.
+7. git reset --hard: Menghapus paksa semua perubahan yang belum disimpan dan mengembalikan kode ke kondisi commit terakhir.
+8. git status: Memeriksa kondisi repositori saat ini, seperti file yang belum disimpan atau posisi branch aktif.
+9. git log: Menampilkan daftar urutan sejarah atau lini masa commit yang pernah dibuat sebelumnya.
+10. git diff: Melihat detail perbedaan baris kode yang baru Anda ketik dibandingkan dengan versi sebelumnya.
+11. git show: Membongkar detail informasi dan isi perubahan kode dari satu commit tertentu secara spesifik.
+12. git push: Mengirim dan mengupload seluruh riwayat commit lokal Anda ke server internet seperti GitHub.
+13. git restore: Membatalkan perubahan yang belum di-commit pada file di folder kerja agar kembali ke kondisi save-an terakhir.
+14. git revert: Membuat commit baru yang isinya membatalkan efek atau perubahan dari commit masa lalu tanpa menghapus riwayatnya.
+15. git pull: Mengambil sekaligus menggabungkan pembaruan kode terbaru dari internet ke komputer lokal Anda.
+16. git fetch: Memeriksa dan menarik informasi perkembangan terbaru dari internet tanpa langsung menggabungkannya ke kode Anda.
+17. git branch: Melihat daftar cabang atau membuat jalur pengembangan fitur baru yang terpisah dari jalur utama.
+18. git checkout: Berpindah dari satu cabang (branch) ke cabang lainnya atau melompat ke rekaman masa lalu.
+19. git merge: Menyatukan dan menggabungkan perubahan kode dari cabang lain ke dalam cabang yang sedang Anda buka.
+20. git tag: Memberikan label penanda permanen, seperti versi rilis aplikasi (v1.0), pada titik commit tertentu.
+---
+GitHub, GitLab, dan Bitbucket adalah tiga platform berbasis web paling populer yang digunakan untuk menyimpan, mengelola, dan membagikan proyek kode yang menggunakan teknologi Git.
