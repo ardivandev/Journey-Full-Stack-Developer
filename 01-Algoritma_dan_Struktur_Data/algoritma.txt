@@ -1,0 +1,168 @@
+Algoritma adalah sekumpulan cara atau langkah-langkah logis yang disusun secara sistematis untuk menyelesaikan sebuah masalah.
+---
+# Contoh Algoritma
+* Cara Membuat Teh
+1. Panaskan air
+2. Masukkan teh
+3. Tambah gula
+3. Aduk
+---
+# Karakteristik Algoritma
+1. Keterbatasan: Algoritma harus berhenti setelah mengerjakan sejumlah langkah terbatas.
+2, Kapasitas: Setiap langkah harus didefinisikan dengan tepat dan tidak ambigu,
+3. Input: Memiliki 0 / lebih data masukan.
+4. Output: Memiliki 1 / lebih hasil keluaran.
+5. Efektivitas: Setiap langkah harus sesederhana mungkin sehingga bisa dikerjakan dalam waktu yang masuk akal.
+---
+# Struktur Dasar Algoritma
+1. Sequence (Runtutan): Instruksi yang dikerjakan satu per satu secara berurutan dari atas ke bawah.
+2. Selection (Pemilihan/Percabangan): Instruksi yang hanya dikerjakan jika kondisi tertentu terpenuhi.
+3. Iteration (Perulangan): Instruksi yang dikerjakan berulang kali selama kondisi terpenuhi.
+---
+# Cara Penulisan Algoritma
+1. Pseudocode: Penjelasan logika menggunakan bahasa manusial yang mirip kode program.
+2. Flowchart: Penjelasan menggunakan simbol-simbol grafis.
+---
+# Macam-Macam Algoritma
+* Algoritma Sorting
+Algoritma sorting adalah algoritma yang digunakan untuk mengatur sekumpulan data yang acak menjadi berurutan.
+
+- Jenis-Jenis Algoritma Sorting:
+1. Bubble Sort: Metode pengurutan data dengan cara membandingkan 2 angka yang berdekatan, lalu menukarnya jika urutan salah.
+Contoh:
+Angka Tidak Berurutan: [5,3,2,6]
+Langkah Penyelesaian:
+1. Bandingkan angka 5 dan 3
+   Proses: [5,3],2,6. Karena 5 > 3, maka ditukar.
+   Hasil: 3,5,2,6
+2. Bandingkan angka 5 dan 2
+   Proses: 3,[5,2],6. Karena 5 > 2, maka ditukar.
+   Hasil: 3,2,5,6
+3. Bandingkan angka 3 dan 2
+   Proses: [3,2],5,6. Karena 3 > 2, maka ditukar.
+   Hasil: [2,3,5,6]
+Hasil Akhir: [2,3,5,6]
+
+2. Selection Sort: Metode yang bekerja dengan mencari angka paling kecil, lalu memindahkannya ke depan.
+Contoh:
+Angka Tidak Berurutan: [5,3,2,6]
+Langkah Penyelesaian:
+1. Cari angka terkecil dari seluruh data.
+   Proses:
+   - Angka tekecil: 2
+   - Tukar dengan angka pertama (5)
+   Hasil: [2,3,5,6]
+2. Periksa sisa data.
+   Proses: [3,5,6]. Data sudah urut.
+Hasil Akhir: [2,3,5,6]
+
+3. Insertion Sort: Metode yang bekerja dengan mengambil satu angka lalu menyisipkannya ke posisi yang benar.
+Contoh:
+Angka Tidak Berurutan: [5,3,2,6]
+Langkah Penyelesaian:
+1. Ambil angka 3, bandingkan dengan 5
+   Proses:
+   - Karena 3 lebih kecil, maka 5 digeser.
+   Hasil: [3,5,2,6]
+2. Ambil angka 2, bandingkan dengan 5 dan 3
+   Proses:
+   - Karena 2 lebih kecil, maka disisipkan didepan.
+   Hasil: [2,3,5,6]
+3. Ambil angka 6, posisinya sudah benar.
+   Hasil: [2,3,5,6]
+Hasil Akhir: [2,3,5,6]
+
+4, Merge Sort: Metode yang bekerja dengan membagi data menjadi bagian kecil, lalu menggabungkannya kembali secara terurut.
+Contoh:
+Angka Tidak Berurutan: [5,3,2,6]
+1. Membagi data, dari [5,3,2,6]
+   Proses:
+   - [5,3] dan [2,6]. Kemudian bagi lagi.
+   - [5] [3] [2] [6]
+   Hasil: [5] [3] [2] [6]
+2. Menggabungkan (Gabungkan sambil diurutan)
+   Proses:
+   - [5] + [3] => [3,5]
+   - [2] + [6] => [2,6]
+   Hasil: [3,5] [2,6]
+3. Gabungkan semua
+   Proses:
+   - [3,5] + [2,6] => [2,3,5,6]
+   Hasil: [2,3,5,6]
+Hasil Akhir: [2,3,5,6]
+
+5. Quick Sort: Metode yang bekerja dengan memilih satu angka sebagai pivot, lalu memisahkan angka kecil dan besar.
+Note: Setelah menentukan pivot, simpan angka kecil dari pivot disebelah kiri, sedangkan angka besar disebalah kanan.
+Contoh:
+Angka Tidak Berurutan: [5,3,2,6]
+Langkah Penyelesaian:
+1. PIlih pivot, contohnya adalah angka 5, kemudian pisahkan:
+   Proses:
+   - Kecil dari 5 => [3,2]
+   - Besar dari 5> [6]
+   Hasil: [3,2] 5 [6]
+2. Urutkan bagian kiri (kecil)
+   Proses:
+   - [3,2]. Pilih pivot kembali contohnya adalah 3, menjadi:
+   - [2] 3 []
+   - Hasil: [2,3]
+3. Gabungkan
+   Proses:
+   - [2,3] + [5] + [6]
+   Hasil: [2,3,5,6]
+Hasil Akhir: [2,3,5,6]
+---
+* Algoritma Searching
+Algoritma searching adalah algoritma yang digunakan untuk mencari data tertentu di dalam kumpulan data.
+
+- Jenis-Jenis Algoritma Searching
+1. Linear Search: Metode pencarian dengan cara memeriksa data satu per satu dari awal sampai data ditemukan.
+Note: jika belum ditemukan, maka lanjutkan pemeriksaan hingga menemukan angka yang diinginkan.
+Contoh:
+Data Angka: [5,3,8,2,9]
+Mencari angka 8
+Langkah Penyelesaian:
+1. Periksa angka pertama 5 == 8 (false)
+2. Periksa angka pertama 3 == 8 (false)
+3. Periksa angka pertama 8 == 8 (true)
+Hasil Akhir: Angka 8 ditemukan pada index ke-2
+
+2. Binary Search: Metode pencarian yang bekerja dengan membagai data menjadi 2 bagian terus-menerus.
+Note: Untuk menggunakan binary search data harus berurutan.
+Contoh:
+Data Angka: [2,3,5,8,9]
+Mencari angka 8
+Langkah Penyelesaian:
+1. Mencari posisi tengah dengan rumus
+   Proses:
+   - Rumus (index pertama + index terakhir) / 2
+   - (0 + 4) / 2
+   - 4 / 2
+   - Index 2 == angka 5
+   Hasil: Karena 8 > 5, maka pencarian pindah ke kanan.
+2. Mencari posisi tengah
+   Proses:
+   - (3 + 4) / 2
+   - 7 / 2
+   - 3.5 dibulatkan menjadi 3
+   - Index 3 == angka 8
+   Hasil: Karena 8 == 8, maka data sudah ditemukan
+Hasil Akhir: Angka 8 ditemukan pada index ke-3
+---
+* Algoritma Recursive
+Algoritma rekursive adalah algoritma yang digunakan dengan cara memanggil dirinya sendiri secara berulang untuk menyelesaikan masalah.
+
+Konsep Dasar Recursive
+1. Base Case: Kondisi untuk menghentikan recursive. Tanpa base case, program akan terus berjalan tanpa henti (Infinite Recursion)
+2. Recursive Case: Bagian yang memanggil fungsi itu sendiri.
+
+Contoh Recursive
+Faktorial 5
+Langkah Penyelesaian
+1. 5 * faktorial(4)
+2. 5 * 4 * faktorial(3)
+3. 5 * 4 * 3 * faktorial(2)
+4. 5 * 4 * 3 * 2 * faktorial(1)
+Base Case: faktorial(1) = 1
+Kemudian hasil dikembalikan: 5*4*3*2*1 = 120
+---

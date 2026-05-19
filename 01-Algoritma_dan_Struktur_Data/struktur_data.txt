@@ -1,0 +1,30 @@
+Apa itu Struktur Data?
+Gampangnya, kalau Data adalah barang-barang di kamar kamu, maka Struktur Data adalah lemari, laci, atau rak yang kamu pakai buat ngerapihin barang-barang itu. Salah pilih wadah, nyari barangnya bakal lama dan berantakan.
+---
+Di dunia pemrograman, ada 4 jenis struktur data dasar (Linear) yang wajib hukumnya buat dikuasai:
+1. ARRAY (Larik)
+Struktur data yang menyimpan elemen dengan tipe data yang sama di lokasi memori yang berurutan. Setiap elemen punya nomor urut yang disebut Index (dimulai dari 0).
+Analogi: Laci lemari yang diberi nomor urut 0, 1, 2, 3... dst.
+Kelebihan: Sangat cepat kalau mau ngambil data secara acak (tinggal panggil index-nya).
+Kekurangan: Ukurannya kaku (fixed size). Kalau dari awal kamu bikin Array kapasitasnya 5, kamu gak bisa tiba-tiba masukin data ke-6 tanpa bikin Array baru.
+--
+2. LINKED LIST (Daftar Berantai)
+Kumpulan elemen (disebut Node) di mana setiap elemennya tidak disimpan di memori yang berurutan, melainkan saling "menunjuk" satu sama lain menggunakan Pointer. Setiap Node punya dua bagian: Data dan Alamat Node Berikutnya (Next).
+Analogi: Permainan Treasure Hunt (Mencari Hantu/Harta Karun). Di pos A ada hadiah beserta petunjuk kertas buat pergi ke pos B. Di pos B ada petunjuk buat ke pos C.
+Kelebihan: Ukurannya dinamis. Kamu bisa nambah atau hapus data kapan aja tanpa mikirin kapasitas memori.
+Kekurangan: Gak bisa langsung lompat ke data tengah. Kalau mau nyari data ke-50, kamu terpaksa harus jalan menyusuri dari data ke-1, 2, 3, sampai ke-50.
+--
+3. STACK (Tumpukan)
+Struktur data yang mengikuti prinsip LIFO (Last In, First Out). Artinya, data yang terakhir masuk justru yang harus pertama kali keluar.
+Analogi: Tumpukan piring di tempat prasmanan atau tumpukan baju di lemari. Kamu gak mungkin ngambil piring paling bawah duluan kan? Pasti ambil yang paling atas.
+Operasi Utama: * Push: Memasukkan data ke tumpukan paling atas.
+Pop: Mengambil data dari tumpukan paling atas.
+Contoh Nyata di Aplikasi: Fitur Undo/Redo di Microsoft Word/Canva, atau tombol Back di browser kamu.
+---
+4. QUEUE (Antrean)
+Kebalikan dari Stack, Queue mengikuti prinsip FIFO (First In, First Out). Data yang pertama kali masuk adalah yang pertama kali keluar.
+Analogi: Antrean beli tiket bioskop atau antrean di kasir minimarket. Yang dateng duluan, dilayanin duluan.
+Operasi Utama:
+Enqueue: Memasukkan data ke barisan paling belakang.
+Dequeue: Mengeluarkan data dari barisan paling depan.
+Contoh Nyata di Aplikasi: Sistem antrean cetak pada mesin Printer, atau alur customer service.
