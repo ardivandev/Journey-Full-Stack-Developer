@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML | Table</title>
+    <style>
+      table {
+        border-spacing: 0px;
+        margin: 10px 0px;
+      }
+
+      tr:nth-child(odd) {
+        background-color: lightblue;
+      }
+
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table</h1>
+    <p>Digunakan untuk pembuatan tabel, dengan tag <code>table,tr,th,td</code></p>
+    <hr />
+
+    <p>Contohnya :</p>
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Kelas</th>
+          <th>Jurusan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Andi</td>
+          <td>XI RPL 1</td>
+          <td>Rekayasa Perangkat Lunak</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Budi</td>
+          <td>XI TKJ 1</td>
+          <td>Teknik Komputer dan Jaringan</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Citra</td>
+          <td>XI MM 1</td>
+          <td>Multimedia</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Dewi</td>
+          <td>XI AKL 1</td>
+          <td>Akuntansi dan Keuangan Lembaga</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Eko</td>
+          <td>XI BDP 1</td>
+          <td>Bisnis Daring dan Pemasaran</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <tr>
+        <td>1,1</td>
+        <td>1,2</td>
+        <td>1,3</td>
+        <td>1,4</td>
+      </tr>
+      <tr>
+        <td>2,1</td>
+        <td colspan="2" rowspan="2">Colspan dan Rowspan</td>
+        <td>2,4</td>
+      </tr>
+      <tr>
+        <td>3,1</td>
+        <td>3,4</td>
+      </tr>
+      <tr>
+        <td>4,1</td>
+        <td>4,2</td>
+        <td>4,3</td>
+        <td>4,4</td>
+      </tr>
+    </table>
+  </body>
+</html>

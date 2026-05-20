@@ -1,0 +1,11 @@
+Internet adalah sistem jaringan komputer yang saling terhubung secara global dengan menggunakan paket protokol internet (TCP/IP) untuk menghubungkan perangkat di seluruh dunia.
+---
+Manfaat-Manfaat Internet
+1. Berbagi data
+2. Menikmati layanan hiburan streaming multimedia
+3. Pemasaran melalui internet
+---
+HTML, kerangka atau fondasi dari suatu halaman website.
+CSS, menata atau mempercantik dari kerangka/html yang sudah dibuat.
+JavaScript, fungsi yang terdapat dalam sebuah website, seperti create, update, delete, searching, dll.
+---
