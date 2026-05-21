@@ -1,0 +1,22 @@
+/* Margin dan Padding */
+/* Margin jarak diluar element */
+/* Padding jarak didalam element */
+
+div.container {
+  border: 1px solid black;
+}
+
+.first,
+.second {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+.first {
+  margin: 10px;
+}
+
+.second {
+  padding: 10px;
+}

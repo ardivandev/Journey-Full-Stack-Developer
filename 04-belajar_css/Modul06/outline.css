@@ -1,0 +1,7 @@
+/* Outline */
+/* Outline seperti border, namun untuk penempatan outline setelah border */
+
+p {
+  border: 5px solid black;
+  outline: 5px dashed blue;
+}

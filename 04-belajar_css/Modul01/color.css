@@ -1,0 +1,14 @@
+h1 {
+  /* Menggunakan name color */
+  color: darkblue;
+}
+
+p {
+  /* Menggunakan format rgb / rgba */
+  color: rgb(0, 128, 255);
+}
+
+p.description {
+  /* Menggunakan hexadecimal */
+  color: #676767;
+}

@@ -1,0 +1,16 @@
+/* Height & Width */
+/* Height untuk mengatur ketinggian */
+/* Width untuk mengatur lebar */
+
+section.first {
+  background-color: lightblue;
+  width: 500px;
+  height: 200px;
+}
+
+section.second {
+  background-color: tomato;
+  color: white;
+  width: 90%;
+  height: 200px;
+}

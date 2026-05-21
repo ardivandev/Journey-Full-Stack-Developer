@@ -1,0 +1,27 @@
+/* Border */
+/*
+border-width
+border-style
+border-color
+border-radius
+*/
+
+/* Shorthand */
+/* Sudah valid */
+/* border:  border-width border-style border-color */
+
+h1 {
+  border: 5px dotted blue;
+}
+
+h2 {
+  border-width: 5px;
+  border-style: dashed solid;
+  border-color: blue green yellow red;
+}
+
+p {
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 20px
+}

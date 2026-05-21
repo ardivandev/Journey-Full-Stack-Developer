@@ -1,0 +1,52 @@
+/* Text Formatting Style */
+
+/*
+text-align
+text-decoration
+text-transform
+text-shadow
+text-indent
+text-overflow
+letter-spacing
+word-spacing
+line-height
+*/
+
+section.one {
+  text-align: center;
+}
+
+.one h1 {
+  text-decoration: line-through;
+  color: red;
+  letter-spacing: 5px;
+  text-transform: lowercase;
+}
+
+.one p {
+  word-spacing: 10px;
+  line-height: 30px;
+}
+
+.two {
+  width: 50%;
+  height: 100px;
+  overflow: auto;
+}
+
+.three h2 {
+  color: #ffffff;
+  background: #232323;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #49ff18,
+    0 0 30px #49ff18,
+    0 0 40px #49ff18,
+    0 0 55px #49ff18,
+    0 0 75px #49ff18;
+}
