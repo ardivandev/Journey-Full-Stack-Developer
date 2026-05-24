@@ -1,0 +1,47 @@
+.one,
+.two,
+.three {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.one p:first-child {
+  color: red;
+}
+
+.one p:last-child {
+  color: blue;
+}
+
+.one p:nth-child(2) {
+  color: green;
+}
+
+.two button {
+  background-color: red;
+  color: whitesmoke;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.two button:hover {
+  background-color: blue;
+}
+
+.two button:active {
+  background-color: green;
+}
+
+.three a:link {
+  color: deepskyblue;
+  font-weight: bold;
+}
+
+.three a:visited {
+  color: purple;
+}

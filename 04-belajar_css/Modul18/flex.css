@@ -1,0 +1,39 @@
+/* Flexbox */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+section {
+  width: 90%;
+  height: 500px;
+  border: 5px solid black;
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+  /* flex-wrap: wrap; */
+  /* align-content: flex-start; */
+  /* gap: 3em; */
+}
+
+section div {
+  width: 80px;
+  height: 80px;
+  background-color: lightblue;
+  border: 5px solid blue;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.item-1 {
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  /* flex-basis: 100px; */
+  /* flex: 1 1 100px; */
+  flex: 0 1 100px;
+}

@@ -1,0 +1,19 @@
+section {
+  border: 1px solid black;
+  padding: 20px 5px;
+}
+
+.one {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-color: lightblue;
+  /* Property, Duration, Timing Function, Delay */
+  transition: all 1s ease 3s;
+  border-radius: 20px;
+}
+
+.one:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+}

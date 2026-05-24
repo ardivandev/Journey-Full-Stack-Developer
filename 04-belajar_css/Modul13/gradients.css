@@ -1,0 +1,26 @@
+div {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.one {
+  /* to top, to bottom, to left, to right dan derajat */
+  background-image: linear-gradient(45deg, yellow, red);
+}
+
+.two {
+  background-color: lightgreen;
+  background-image: repeating-linear-gradient(black, lightgreen 10%);
+}
+
+.three {
+  background-color: black;
+  background-image: radial-gradient(circle, red, orange, yellow, green, blue, pink, purple);
+}
+
+.four {
+  background-image: conic-gradient(red, yellow, green, blue, black);
+}

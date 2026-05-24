@@ -1,0 +1,54 @@
+section {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+section p {
+  margin: 50px 0px;
+}
+
+section .text-one::first-line {
+  color: blue;
+}
+
+section .text-two::first-letter {
+  font-size: 50px;
+  color: red;
+}
+
+section .text-three {
+  position: relative;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+section .text-three::before {
+  content: '🔥';
+  position: absolute;
+  bottom: 0;
+}
+
+section .text-four::after {
+  content: ' 🚀';
+}
+
+section ul li::marker {
+  color: blue;
+  font-size: 30px;
+}
+
+::selection {
+  background-color: purple;
+  color: white;
+}
+
+dialog {
+  width: 200px;
+  padding: 20px;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.8);
+  /* backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); */
+}

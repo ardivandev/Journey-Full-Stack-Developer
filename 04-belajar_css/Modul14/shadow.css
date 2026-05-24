@@ -1,0 +1,19 @@
+/* Shadow */
+
+h1 {
+  color: red;
+  /* Horizontal, Vertikal, BLur, Colour */
+  text-shadow:
+    0px 0px 10px yellow,
+    0px 0px 20px orange,
+    0px 0px 30px red;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  margin: 10px 0px;
+  background: blue;
+  border-radius: 20px;
+  box-shadow: 0px 20px 10px 5px #7a7a7a;
+}
