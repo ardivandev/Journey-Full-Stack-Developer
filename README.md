@@ -9,16 +9,18 @@
 3. Html ( Sumber: Kelasfullstack (Codepolitan) )
 4. Css ( Sumber: Kelasfullstack (Codepolitan) )
 5. Bootstrap ( Sumber: Kelasfullstack (Codepolitan) )
+6. JavaScript ( Sumber: Kelasfullstack (Codepolitan) )
 
 ### ⏳ Materi yang sedang dipelajari:
 
-1. JavaScript ( Sumber: Kelasfullstack (Codepolitan) )
+1. AJAX / AJAJ dan API ( Sumber: Kelasfullstack (Codepolitan) )
 
 ### 🐺 Materi yang akan dipelajari:
 
+1. Jquery
 2. Tailwind
-3. API
-4. React
+3. SASS
+4. React JS
 
 ---
 
