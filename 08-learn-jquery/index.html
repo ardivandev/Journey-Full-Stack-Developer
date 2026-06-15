@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <style>
+      .merah {
+        color: red;
+      }
+
+      .biru {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Learn jQuery</h1>
+
+    <p>Destinations</p>
+    <!-- <button type="button" id="toggleBandung">Toggle Bandung</button> -->
+    <ul id="destinations">
+      <li class="bandung">
+        Bandung <br />
+        <button type="button" id="bRed">Color Red</button>
+        <button type="button" id="bBlue">Color Blue</button>
+        <button type="button" id="fBig">Font Big</button>
+        <!-- <button type="button" id="hideBandung">Hide</button> -->
+        <!-- <button type="button" id="goBandung">Pergi!</button>
+        <button type="button" id="hapusBandung">X</button> -->
+      </li>
+      <!-- <ul>
+        <li>Bandung Kota</li>
+        <li>Bandung Barat</li>
+        <li>Bandung Timur</li>
+        <li>Bandung Selatan</li>
+      </ul> -->
+      <li class="jakarta">Jakarta</li>
+      <li class="surabaya">Surabaya</li>
+      <li class="madura">Madura</li>
+    </ul>
+
+    <!-- <p>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" />
+    </p> -->
+
+    <!-- <p class="country">Country</p> -->
+
+    <script src="jquery-4.0.0.js"></script>
+    <script>
+      $(document).ready(function () {
+        console.log('Document is ready!');
+
+        // === Menggunakan JQuery Selector
+        // $('li').text('Indonesia');
+        // $('#city').text('Country');
+
+        // === Menggunakan CSS Pseudo-Class
+        // $('#destinations li').css('background-color', 'lightblue');
+        // $('#destinations > li').css('background-color', 'lightgreen');
+        // $('#destinations > li:odd').css('background-color', 'lightblue');
+        // $('#destinations > li:even').css('background-color', 'lightgreen');
+        // $('.country, #destinations').css('background-color', 'red');
+
+        // === Menggunakan fungsi Traversing
+        // $('li').first().next().css('color', 'red');
+        // $('li').first().next().prev().css('color', 'red');
+        // $('li').last().css('color', 'red');
+        // $('li').parent().css('color', 'red');
+        // $('#destinations').children('li').css('color', 'blue');
+        // $('#destinations').find('li').css('color', 'blue');
+
+        // === Manipulasi Dom
+        // const bali = $('<li>Bali</li>').css('color', 'blue');
+        // const aceh = $('<li>Aceh</li>').css('color', 'red');
+        // const gresik = $('<li>Gresik</li>').css('color', 'green');
+        // const yogyakarta = $('<li>Yogyakarta</li>').css('color', 'purple');
+        // const input = $('input');
+        const bandung = $('.bandung');
+        // const destinations = $('#destinations');
+
+        // Cara Pertama
+        // $('.bandung').before(bali);
+        // $('.bandung').after(aceh);
+        // $('#destinations').prepend(yogyakarta);
+        // $('#destinations').append(gresik);
+
+        // Cara Kedua
+        // bali.insertBefore(bandung);
+        // aceh.insertAfter(bandung);
+        // yogyakarta.prependTo(destinations);
+        // gresik.appendTo(destinations);
+
+        // GET
+        // console.log(bandung.text());
+        // console.log(destinations.html());
+        // console.log(input.val());
+
+        // SET
+        // bandung.text('Cimahi');
+        // $('.jakarta').html('<b>Jakarta</b>');
+        // input.val('Boy');
+
+        // Remove dan mengosongkan nilai / value
+        // bali.remove();
+        // aceh.empty();
+
+        // Event Handler
+        // $('input').on('keyup', (e) => {
+        //   console.log(e.target.value);
+        // });
+        // $('#goBandung').on('click', () => {
+        //   alert('Kamu siap pergi ke bandung');
+        // });
+        // $('#hapusBandung').on('click', () => {
+        //   $('.bandung').remove();
+        //   alert('Kamu tidak mau ke bandung');
+        // });
+
+        // $('#hideBandung').on('click', () => {
+        //   $('.bandung').hide();
+        // });
+
+        // $('#toggleBandung').on('click', () => {
+        // $('.bandung').fadeToggle(500);
+        //   $('.bandung').animate({
+        //     marginLeft: 200,
+        //   });
+        // });
+
+        // $('#toggleBandung').on('dblclick', () => {
+        // console.log($('.bandung').css('margin-left'));
+        //   if ($('.bandung').css('margin-left') !== 0) {
+        //     $('.bandung').animate({
+        //       marginLeft: 0,
+        //     });
+        //   }
+        // });
+
+        // Manipulasi CSS
+        const bRed = $('#bRed');
+        const bBlue = $('#bBlue');
+        const fBig = $('#fBig');
+
+        bRed.on('click', () => {
+          bandung.removeClass('biru');
+          bandung.addClass('merah');
+        });
+
+        bBlue.on('click', () => {
+          bandung.removeClass('merah');
+          bandung.addClass('biru');
+        });
+
+        fBig.on('click', () => {
+          bandung.animate({
+            fontSize: 50,
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
